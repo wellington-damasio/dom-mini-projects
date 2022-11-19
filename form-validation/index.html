@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <!-- CSS Stylesheet Link -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Scripts -->
+    <script defer src="js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="sign-up-form">
+            <div class="wrapper">
+                <label for="username">Username:</label>
+                <input type="text" id="username">
+                <small></small>
+            </div>
+
+            <div class="wrapper">
+                <label for="email">Email:</label>
+                <input type="email" id="email"> 
+                <small></small>
+            </div>
+
+            <div class="wrapper">
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <small></small>
+            </div>
+
+            <div class="wrapper">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password">
+                <small></small>
+            </div>
+
+            <button type="submit" class="block">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- 
+## What is form validation
+
+Before submitting data to the server, you should check the data in the web
+browser to ensure that the submitted data is in the correct format.
+
+To provide quick feedback, you can use JavaScript to validate data. This is
+called client-side validation. 
+
+## Client-side validation options
+
+When it comes to client-side validation, you’ll have two options:
+
+1. JavaScript validation: you develop the validation logic using JavaScript.
+Or you can use a library to do so.
+
+2. Built-in form validation: you can use the HTML5 form validation features. 
+This validation has a better performance than JavaScript validation. However, 
+it isn’t as customizable as JavaScript validation.
+-->
